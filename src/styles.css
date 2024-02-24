@@ -1,0 +1,42 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.email {
+  border-radius: 5px;
+  border: 0.5px solid rgba(255, 255, 255, 0.20);
+  color: white;
+  background: #121212;
+  min-width: 343px;
+  padding-left: 15px;
+  padding-top: 13.5px;
+  padding-bottom: 13.5px;
+}
+
+.password {
+  border-radius: 5px;
+  border: 0.5px solid rgba(255, 255, 255, 0.20);
+  color: white;
+  background: #121212;
+  min-width: 343px;
+  padding-left: 15px;
+  padding-top: 13.5px;
+  padding-bottom: 13.5px;
+}
+
+input::placeholder {
+  color: rgba(255, 255, 255, 0.60);
+}
+
+.line {
+  width: 132px;
+  height: 1px;
+  flex-shrink: 0;
+  stroke: rgba(255, 255, 255, 0.15);
+}
+
+.linee {
+  height: 1px;
+  flex-shrink: 0;
+  stroke: rgba(255, 255, 255, 0.15); 
+}
